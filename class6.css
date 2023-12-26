@@ -1,0 +1,17 @@
+
+.password{
+    display: flex;
+    align-items: center;
+    margin: 100px;
+    position: relative;
+}
+.password input{
+    width: 300px;
+    padding: 10px 20px;
+}
+#eye{
+    width: 30px;
+    position: absolute;
+    left: 300px;
+    cursor: pointer;
+}
