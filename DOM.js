@@ -10,3 +10,7 @@ for(var i=0;i<country_list.length;i++){
     optionTag.innerHTML=country_list[i]
     selectTag.appendChild(optionTag)
 }
+var pic=document.createElement("img")
+pic.setAttribute("src","./media/webcss.png")
+root.prepend(pic)
+pic.style.width="100px"
